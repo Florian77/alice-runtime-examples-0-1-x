@@ -1,0 +1,8 @@
+{
+  "context": "_PARENT_CONTEXT_",
+  "aggregate": "_PARENT_AGGREGATE_",
+  "aggregateId": "_THIS_ITEM_ID_FIELD_=value",
+  "payload": {
+    "data": "value"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "_THIS_AGGREGATE_",
+  "command": "_syncViewCommand_",
+  "viewName": "_VIEW_NAME_"
+}

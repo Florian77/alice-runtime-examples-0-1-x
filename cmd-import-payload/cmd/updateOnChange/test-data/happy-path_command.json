@@ -1,0 +1,8 @@
+{
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "_THIS_AGGREGATE_",
+  "invokeId": "_THIS_ITEM_ID_FIELD_=value",
+  "payload": {
+    "data": "new"
+  }
+}

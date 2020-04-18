@@ -1,0 +1,22 @@
+{
+  "name": "alice-runtime-examples-0-1-x",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set DEV_CONSOLE_FORCE_OFF=1&& set ALICE_RUNTIME_SHOW_DB_CONNECTION_MSG=0 && npx mocha --ui bdd ./**/*.test.js",
+    "test-loud": "npx mocha --ui bdd ./**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alice-runtime": "^0.1.5",
+    "node-dev-console": "0.0.6",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1"
+  }
+}

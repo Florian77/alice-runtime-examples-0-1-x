@@ -1,0 +1,12 @@
+{
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "_THIS_AGGREGATE_",
+  "trigger": "self",
+  "streamContext": "_THIS_CONTEXT_",
+  "streamAggregate": "_THIS_AGGREGATE_",
+  "streamAggregateId": null,
+  "lastSequenceNumber": -1,
+  "command": [
+    "_syncViewCommand_"
+  ]
+}
