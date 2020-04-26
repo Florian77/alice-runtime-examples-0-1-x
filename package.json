@@ -7,11 +7,9 @@
     "test": "set DEV_CONSOLE_FORCE_OFF=1&& set ALICE_RUNTIME_SHOW_DB_CONNECTION_MSG=0 && npx mocha --ui bdd ./**/*.test.js",
     "test-loud": "npx mocha --ui bdd ./**/*.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Florian Tölle",
   "dependencies": {
-    "alice-runtime": "^0.1.5",
+    "alice-runtime": "^0.1.6",
     "node-dev-console": "0.0.6",
     "ramda": "^0.27.0"
   },
