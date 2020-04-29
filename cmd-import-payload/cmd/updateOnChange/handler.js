@@ -7,7 +7,7 @@ const R = require("ramda");
 
 
 const updateOnChange_Command = async (command, env) => {
-    // dc.l("command data", dc.stringify(command));
+    // dc.j(command, "command");
 
     const {_THIS_ITEM_ID_FIELD_} = u.parseInvokeId(command);
     // dc.t(_THIS_ITEM_ID_FIELD_, "_THIS_ITEM_ID_FIELD_");
