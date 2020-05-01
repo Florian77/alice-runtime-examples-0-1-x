@@ -9,14 +9,14 @@ const R = require("ramda");
 const _contextAggregate__Trigger = async (event, env) => {
     // dc.j(event, "event");
 
-    const {_THIS_ITEM_ID_FIELD_} = u.parseAggregateId(event);
+    const {_THIS_ITEM_ID_FIELD_, _THIS_ITEM_ID_FIELD2_} = u.parseAggregateId(event);
     // dc.t(_THIS_ITEM_ID_FIELD_, "_THIS_ITEM_ID_FIELD_");
-    // dc.t(_THIS_ITEM_ID_FIELD_2_, "_THIS_ITEM_ID_FIELD_2_");
+    // dc.t(_THIS_ITEM_ID_FIELD2_, "_THIS_ITEM_ID_FIELD2_");
 
     // use this notation - if more only 1 id field exists
     const aggregateId = u.stringifyId("_THIS_ITEM_ID_FIELD_", _THIS_ITEM_ID_FIELD_);
     // use this notation - if more than 1 id field exists
-    // const aggregateId = u.stringifyId(["_THIS_ITEM_ID_FIELD_", "_THIS_ITEM_ID_FIELD_2_"], {_THIS_ITEM_ID_FIELD_, _THIS_ITEM_ID_FIELD_2_});
+    // const aggregateId = u.stringifyId(["_THIS_ITEM_ID_FIELD_", "_THIS_ITEM_ID_FIELD2_"], {_THIS_ITEM_ID_FIELD_, _THIS_ITEM_ID_FIELD2_});
     // dc.t(aggregateId, "aggregateId");
 
     await env.reInvokeSubscription({
