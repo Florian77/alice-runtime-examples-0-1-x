@@ -22,7 +22,6 @@ const makeAggregate_Command = async (command, env) => {
     if (!parent_DataEvent) { // -> u.aggregateExists()
         return u.returnCmdError("Aggregate [parent] not exists");
     }
-
     const parent_Payload = u.getPayload(parent_DataEvent);
 
 
