@@ -16,9 +16,9 @@ const _contextAggregate__Trigger = async (event, env) => {
         invokeId: u.getAggregateId(event),
         // priority: 0,
         // paused: true,
-        payload: {
-            ...(u.parseAggregateId(event))
-        },
+        // payload: {
+        //     ...(u.parseAggregateId(event))
+        // },
     });
 
     return true;
