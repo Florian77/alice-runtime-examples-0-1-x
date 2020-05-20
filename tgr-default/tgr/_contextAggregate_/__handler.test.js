@@ -48,9 +48,11 @@ describe('app/_THIS_CONTEXT_/_THIS_AGGREGATE_/trg/_contextAggregate_/handler', f
                 "aggregate": "_THIS_AGGREGATE_",
                 "command": "_THIS_COMMAND_",
                 "invokeId": "id=value",
-                "payload": {
-                    "id": "value"
-                }
+                // priority: 0,
+                // paused: true,
+                // "payload": {
+                //     "id": "value"
+                // }
             }
         ]);
     });
