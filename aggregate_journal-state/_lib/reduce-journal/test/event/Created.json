@@ -1,0 +1,10 @@
+{
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "journal",
+  "aggregateId": "journalId=100",
+  "event": "Created",
+  "payload": {
+    "id": 100,
+    "createdAt": "2020-04-09T19:54:18.293Z"
+  }
+}

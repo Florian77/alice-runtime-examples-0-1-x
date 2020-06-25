@@ -1,0 +1,6 @@
+{
+  "event": "NotExistingEventType",
+  "payload": {
+    "notNeeded": true
+  }
+}

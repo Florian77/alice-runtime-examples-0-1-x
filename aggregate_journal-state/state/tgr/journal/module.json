@@ -1,0 +1,15 @@
+{
+  "namespace": "app:_THIS_CONTEXT_:state:tgr:journal",
+  "version": "1.0",
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "state",
+  "trigger": "journal",
+  "streamContext": "_THIS_CONTEXT_",
+  "streamAggregate": "journal",
+  "streamAggregateId": null,
+  "lastSequenceNumber": -1,
+  "command": [
+    "makeAggregate"
+  ],
+  "aggregateId": ["journalId"]
+}
