@@ -1,6 +1,3 @@
-// -------------------------------------------------------------------------
-// ALICE-RUNTIME:TEMPLATE:tgr-sync-view:VERSION:0.1.0
-// -------------------------------------------------------------------------
 const dc = require("node-dev-console");
 const expect = require('chai').expect;
 const aliceTestEnv = require("alice-runtime/test-environment");

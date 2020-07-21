@@ -1,6 +1,3 @@
-// -------------------------------------------------------------------------
-// ALICE-RUNTIME:TEMPLATE:cmd-make-aggregate:VERSION:0.1.0
-// -------------------------------------------------------------------------
 const dc = require("node-dev-console");
 const aliceTestEnv = require("alice-runtime/test-environment");
 const testHandler = require('./handler');

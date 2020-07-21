@@ -1,6 +1,3 @@
-// -------------------------------------------------------------------------
-// ALICE-RUNTIME:TEMPLATE:tgr-default:VERSION:0.1.0
-// -------------------------------------------------------------------------
 const dc = require("node-dev-console");
 const {utility: u} = require("alice-runtime");
 const R = require("ramda");

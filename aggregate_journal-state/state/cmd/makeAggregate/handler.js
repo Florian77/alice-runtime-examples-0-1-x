@@ -1,6 +1,3 @@
-// -------------------------------------------------------------------------
-// ALICE-RUNTIME:TEMPLATE:cmd-make-aggregate-1-on-1:VERSION:0.0.2
-// -------------------------------------------------------------------------
 const dc = require("node-dev-console");
 const {utility: u} = require("alice-runtime");
 const R = require("ramda");

@@ -1,0 +1,70 @@
+{
+  "_id": "AKENEO/output-description/sku=401002&lang=de_DE/1",
+  "context": "AKENEO",
+  "aggregate": "output-description",
+  "aggregateId": "sku=401002&lang=de_DE",
+  "event": "DataChanged",
+  "streamId": "AKENEO/output-description/sku=401002&lang=de_DE",
+  "sequenceNumber": 1,
+  "aggregateSequenceNumber": 42705,
+  "contextSequenceNumber": 314931,
+  "systemSequenceNumber": 314930,
+  "createdAt": "2020-03-30T04:46:18.485Z",
+  "dispatched": true,
+  "dispatchedAt": "2020-03-30T04:46:20.755Z",
+  "version": "1",
+  "payload": {
+    "text": {
+      "name": "Fahrradtasche wasserabweisend",
+      "description": "Sehr schöne und praktische Fahrradtasche zum schnellen An-und Abbau am Fahrrad. Kann alternativ auch als Umhängetasche kombiniert werden. Verfügt über Roll-Schnellverschlüsse. Mit dieser stylischen Fahrradtasche kannst Du alles notwendige transportieren. <br>",
+      "shortDescription": "Sehr schöne und praktische Fahrradtasche zum schnellen An-und Abbau am Fahrrad. Kann alternativ auch als Umhängetasche kombiniert werden. Verfügt über Roll-Schnellverschlüsse. Mit dieser stylischen Fahrradtasche kannst Du alles notwendige transportieren. ",
+      "highlights": "<ul><li>Universelle Fahrradtasche</li><li>Wasserabweisendes Planenmaterial und Textil</li><li>Einstellbare Riemen mit Roll-Schnellverschluss</li><li>Schulter-Tragegurt</li><li>Netztaschen&nbsp; für Trinkflaschen oder Ähnliches</li><li>Reißverschluss</li><li>Elemente aus Tarpaulin (LKW Plane)</li><li>Einhakklammern für Fahrradgestänge auf der Rückseite</li></ul>",
+      "shipment": "<ul><li>1 Fahrradtasche inkl. Tragegurt</li></ul>",
+      "technicality": "<ul><li>Totalmaße (LxBxH): ca. 32 x 16 x 42 cm</li><li>Material: 600D Polyester, Tarpaulin, Kunststoff</li><li>Gewicht: ca. 0,3 kg</li></ul>",
+      "synonyms": "Gepäckträgertasche,Lenkertasche,Satteltasche,Fahrradzubehör,Fahrradhandytasche ",
+      "highlight1": "Universelle Fahrradtasche",
+      "highlight2": "Wasserabweisendes Planenmaterial und Textil",
+      "highlight3": "Einstellbare Riemen mit Roll-Schnellverschluss",
+      "highlight4": "Schulter-Tragegurt",
+      "highlight5": "",
+      "notice": [
+        "<p>Nur f&uuml;r den Hausgebrauch verwenden.</p>",
+        "<p>Nur unter Aufsicht von Erwachsenen benutzen.</p>"
+      ],
+      "noticeId": [],
+      "hasNotice": false,
+      "noticeCostumes": "notice text costumes",
+      "video_1": "I-tHhXPcheU",
+      "video_2": "",
+      "video_3": ""
+    },
+    "color": {
+      "hasValue": true,
+      "key": "color",
+      "code": "32",
+      "name": "Farbe",
+      "value": "schwarz/blau"
+    },
+    "size_chart": {
+      "hasValue": true,
+      "key": "size_chart",
+      "code": "32",
+      "name": "Größentabelle",
+      "value": "10"
+    },
+    "image": {
+      "akeneoFileNames": [
+        "files/401002/image_1/TecTake-Fahrradtasche-401002-1.jpg",
+        "files/401002/image_2/TecTake-Fahrradtasche-401002-2.jpg",
+        "files/401002/image_3/TecTake-Fahrradtasche-401002-3.jpg",
+        "files/401002/image_4/TecTake-Fahrradtasche-401002-4.jpg"
+      ],
+      "links": [
+        "https://d2u02nnz0ljdfs.cloudfront.net/2018-001/files/401002/image_1/TecTake-Fahrradtasche-401002-1.jpg",
+        "https://d2u02nnz0ljdfs.cloudfront.net/2018-001/files/401002/image_2/TecTake-Fahrradtasche-401002-2.jpg",
+        "https://d2u02nnz0ljdfs.cloudfront.net/2018-001/files/401002/image_3/TecTake-Fahrradtasche-401002-3.jpg",
+        "https://d2u02nnz0ljdfs.cloudfront.net/2018-001/files/401002/image_4/TecTake-Fahrradtasche-401002-4.jpg"
+      ]
+    }
+  }
+}
