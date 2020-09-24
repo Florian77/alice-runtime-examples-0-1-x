@@ -1,4 +1,5 @@
 {
+  "type": "stream",
   "context": "_THIS_CONTEXT_",
   "aggregate": "_THIS_AGGREGATE_",
   "trigger": "_contextAggregate_",
