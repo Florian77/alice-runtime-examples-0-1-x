@@ -1,6 +1,6 @@
 {
-  "name": "alice-runtime-examples-0-1-x",
-  "version": "0.1.0",
+  "name": "alice-runtime-examples-0-x",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
