@@ -1,0 +1,10 @@
+{
+  "type": "cron",
+  "context": "_THIS_CONTEXT_",
+  "aggregate": "_THIS_AGGREGATE_",
+  "trigger": "cronTriggerName",
+  "cronExpression": "* * * * *",
+  "command": [
+    "_THIS_COMMAND_"
+  ]
+}
