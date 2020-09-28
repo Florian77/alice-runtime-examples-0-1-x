@@ -6,7 +6,7 @@ const testHandler = require('./handler');
 dc.activate();
 
 
-describe('app/_THIS_CONTEXT_/_THIS_AGGREGATE_/trg/cronTriggerName/handler', function () {
+describe('app/_THIS_CONTEXT_/_THIS_AGGREGATE_/trg/cron_TriggerName_interval/handler', function () {
 
     // -----------------------------------------------------------------------------------------------------------------------------
     before(async () => {

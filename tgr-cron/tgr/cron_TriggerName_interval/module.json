@@ -2,7 +2,7 @@
   "type": "cron",
   "context": "_THIS_CONTEXT_",
   "aggregate": "_THIS_AGGREGATE_",
-  "trigger": "cronTriggerName",
+  "trigger": "cron_TriggerName_interval",
   "cronExpression": "* * * * *",
   "command": [
     "_THIS_COMMAND_"

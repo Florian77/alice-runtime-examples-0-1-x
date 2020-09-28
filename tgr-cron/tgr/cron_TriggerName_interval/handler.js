@@ -3,7 +3,7 @@ const {utility: u} = require("alice-runtime");
 const R = require("ramda");
 
 
-const cronTriggerName_Trigger = async (trigger, env) => {
+const cron_TriggerName_interval_Trigger = async (trigger, env) => {
     // dc.j(trigger, "trigger");
 
     await env.emitMultiCommand({
@@ -22,4 +22,4 @@ const cronTriggerName_Trigger = async (trigger, env) => {
 };
 
 
-module.exports = cronTriggerName_Trigger;
+module.exports = cron_TriggerName_interval_Trigger;
