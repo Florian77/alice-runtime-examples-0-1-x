@@ -16,7 +16,7 @@ const makeAggregate_Command = async (command, env) => {
         aggregate: "_PARENT_AGGREGATE_",
         aggregateId: u.getInvokeId(command),
     });
-    if (!parent_DataEvent) { // -> u.aggregateExists()
+    if (!u.aggregateExists(parent_DataEvent)) {
         return u.returnCmdError("Aggregate [parent] not exists");
     }
     const parent_Payload = u.getPayload(parent_DataEvent);
